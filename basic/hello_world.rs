@@ -3,7 +3,7 @@ fn main () {
   println!("Hello World");
 }
 */
-fn main () {
-  let mut say: String = "Hello"
-  println!("{} World", say);
+fn main() {
+    let mut say: String = "Hello".to_string();
+    println!("{} World", say);
 }
